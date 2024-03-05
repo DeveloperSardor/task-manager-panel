@@ -1,0 +1,40 @@
+.navbar{
+    max-width: 1440px;
+    background-color: rgb(209, 201, 201);
+    height: 60px;
+    padding: 0px 30px;
+    position: sticky !important;
+    top: 0;
+    z-index: 9999;
+}
+.navbar-wrapper{
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.serachWrapNavbar {
+    width: 70%;
+    /* background-color: yellow; */
+}
+.navbar input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+.navbar input:focus{
+    outline: none;
+}
+
+.profilSettingNavbar{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navimg img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}

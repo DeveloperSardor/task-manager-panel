@@ -1,0 +1,141 @@
+.taskCard {
+    max-width: 260px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+  }
+  .task_header h4 {
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+  .detailes {
+    padding-bottom: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .isImpotent span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  
+    background: red;
+    border-radius: 50%;
+  }
+  .detailes .users {
+    width: 50px;
+    border-radius: 1px solid rgba(0, 0, 255, 0.188);
+    background: rgba(0, 0, 255, 0.081);
+    padding: 0px 7px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 35px;
+    position: absolute;
+    right: 50px;
+    bottom: 52px;
+  }
+  .downloadTask {
+    background: transparent;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    border: 0px;
+  }
+  .downloadTask i{
+      font-size: 20px;
+  }
+  .detailes .time {
+    padding-top: 10px;
+  }
+  .detailes .time span {
+    padding-left: 6px;
+  }
+  .tast_body h5 {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .task_footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .task_footer button {
+    width: 100%;
+    border: none;
+  }
+  .time span{
+    display: flex;
+    gap: 15px;
+  }
+  .time span p:nth-child(1){
+    font-weight: bold;
+  }
+  .time span p{
+    font-size: 14px
+  }
+  
+  
+  
+  .card{
+    max-width: 250px;
+    width: 100%;
+  }
+  .card-header{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card-footer{
+    padding: 10px;
+  }
+  .card-body{
+    padding: 15px;
+  }
+  
+  /*  
+  .taskCardThirdDot{
+      color: green;
+      border: none;
+      padding: 0px 5px;
+      margin: 0 !important;
+      font-size: 18px;
+  }
+  .taskCardDropdown{
+      width: 100px !important;
+      background-color: white;
+      border-radius: 8px;
+      padding: 10px 15px;
+      border: 1px solid rgb(210, 200, 200);
+  }
+  
+  .card{
+      width: 250px;
+  
+      height: 300px;
+  }
+  .card-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+  .card-body{
+      padding: 10px;
+  }
+  .card-footer{
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+  }
+  .card-footer p{
+      padding: 0;
+      margin: 0;
+  } */
+  
